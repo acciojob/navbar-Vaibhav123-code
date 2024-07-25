@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.navbar {
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	background-color: #6e072d;
+	color:white;
+}
+.left {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.right {
+	display:flex;
+	justify-content:center;
+    align-items:center;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li {
+	font-size:18px;
+	padding:18px 27px;
+	cursor:pointer;
+}
+li:hover {
+	background-color: #b90e4d;	
+}
+.navbar li + li {
+            border-left: 2px solid white;
+        }
+       
